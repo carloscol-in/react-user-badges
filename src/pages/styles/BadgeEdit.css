@@ -1,0 +1,24 @@
+.BadgeEdit__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background: url("../../images/stars.svg"), #1b1b25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.BadgeEdit__hero > .BadgeEdit__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BadgeEdit__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.BadgeEdit__hero-image {
+  max-height: 100px;
+}
